@@ -1,0 +1,11 @@
+name: label_converter
+channels:
+  - defaults
+dependencies:
+  - python >=2.7
+  - anaconda
+  - pip
+  - pip:
+      - flake8
+      - black
+      - -r file:requirements.txt
